@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import Home from './app/navigation/BottomTap/BottomTabs';
+// import Bottom from './app/navigation/BottomTap/BottomTabs';
+import Drawer from './app/navigation/DrawerTab/DrawerTab';
 
 class App extends Component {
   render() {
-    return <Home />;
+    return <Drawer />;
   }
 }
 export default App;
