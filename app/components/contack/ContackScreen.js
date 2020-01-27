@@ -1,11 +1,16 @@
 import React, {Component} from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 
 class ContackScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text>ContackScreen</Text>
+        {/* <TouchableOpacity
+          onPress={() => this.props.navigation.openDrawer()}
+          style={{padding: 10, marginTop: 10, backgroundColor: 'red'}}>
+          <Text style={{color: 'white'}}>Show Drawer</Text>
+        </TouchableOpacity> */}
       </View>
     );
   }
